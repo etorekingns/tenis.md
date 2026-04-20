@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ÁPEX SPORT — Move Without Limits</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="header__top">
+      <span>FRETE GRÁTIS EM COMPRAS ACIMA DE R$299</span>
+    </div>
+
+    <nav class="nav container">
+      <!-- Logo -->
+      <a href="#" class="nav__logo">ÁPEX<span>SPORT</span></a>
+
+      <!-- Menu desktop -->
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#home" class="nav__link active">Home</a></li>
+        <li><a href="#masculino" class="nav__link">Masculino</a></li>
+        <li><a href="#feminino" class="nav__link">Feminino</a></li>
+        <li><a href="#infantil" class="nav__link">Infantil</a></li>
+        <li><a href="#promocoes" class="nav__link nav__link--promo">Promoções</a></li>
+      </ul>
+
+      <!-- Ações -->
+      <div class="nav__actions">
+        <button class="nav__icon" aria-label="Buscar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="nav__icon" aria-label="Favoritos">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </button>
+        <button class="nav__icon nav__cart" aria-label="Carrinho">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="nav__cart-count">3</span>
+        </button>
+        <!-- Hamburguer mobile -->
+        <button class="nav__toggle" id="nav-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <div class="hero__blob hero__blob--1"></div>
+        <div class="hero__blob hero__blob--2"></div>
+        <div class="hero__grid"></div>
+      </div>
+
+      <div class="hero__content container">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Nova Coleção 2025</p>
+          <h1 class="hero__title">MOVE<br/><em>WITHOUT</em><br/>LIMITS</h1>
+          <p class="hero__subtitle">Equipamentos esportivos que acompanham cada movimento do seu corpo. Tecnologia e performance em cada detalhe.</p>
+          <div class="hero__cta">
+            <a href="#produtos" class="btn btn--primary">Ver Coleção</a>
+            <a href="#" class="btn btn--ghost">Lançamentos</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <!-- Shoe illustration via SVG/CSS art -->
+          <div class="hero__shoe-wrap">
+            <div class="hero__shoe">
+              <svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" class="shoe-svg">
+                <!-- Sola -->
+                <ellipse cx="250" cy="285" rx="195" ry="22" fill="#111" opacity="0.15"/>
+                <!-- Body principal do tênis -->
+                <path d="M60 210 Q80 130 160 100 Q220 75 300 80 Q380 85 420 120 Q450 145 440 190 Q430 220 380 230 Q300 245 200 240 Q120 238 80 228 Z" fill="#F5F5F5"/>
+                <!-- Parte superior/cano -->
+                <path d="M160 100 Q200 65 260 60 Q320 58 360 80 Q400 100 420 120 Q380 85 300 80 Q220 75 160 100Z" fill="#E0E0E0"/>
+                <!-- Swoosh / detalhe lateral -->
+                <path d="M120 185 Q200 145 320 155 Q380 158 420 175" stroke="#E63946" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.9"/>
+                <!-- Cadarço area -->
+                <path d="M165 100 Q230 85 300 88 Q350 90 370 100" stroke="#CCC" stroke-width="3" fill="none" stroke-dasharray="8 5"/>
+                <!-- Cadarços -->
+                <line x1="180" y1="105" x2="185" y2="125" stroke="#999" stroke-width="2"/>
+                <line x1="210" y1="97" x2="215" y2="118" stroke="#999" stroke-width="2"/>
+                <line x1="240" y1="92" x2="245" y2="113" stroke="#999" stroke-width="2"/>
+                <line x1="270" y1="90" x2="275" y2="111" stroke="#999" stroke-width="2"/>
+                <line x1="300" y1="91" x2="305" y2="112" stroke="#999" stroke-width="2"/>
+                <line x1="330" y1="95" x2="335" y2="115" stroke="#999" stroke-width="2"/>
+                <!-- Sola dura -->
+                <path d="M70 222 Q130 240 220 243 Q320 248 400 232 Q440 224 445 215 Q440 235 395 245 Q300 265 190 258 Q100 252 65 235 Z" fill="#222"/>
+                <!-- Detalhe sola -->
+                <path d="M75 232 Q200 248 380 236" stroke="#444" stroke-width="3" fill="none"/>
+                <!-- Calcanhar reforço -->
+                <path d="M390 130 Q440 145 440 190 Q430 215 400 225 Q430 195 425 155 Q420 135 390 130Z" fill="#DCDCDC"/>
+                <!-- Logo area -->
+                <circle cx="160" cy="185" r="18" fill="none" stroke="#E63946" stroke-width="2.5" opacity="0.5"/>
+                <text x="152" y="191" font-family="Arial" font-weight="bold" font-size="11" fill="#E63946" opacity="0.7">Á</text>
+              </svg>
+              <div class="hero__shoe-glow"></div>
+            </div>
+            <div class="hero__shoe-label">
+              <span>Velocity Pro X1</span>
+              <strong>R$ 699,90</strong>
+            </div>
+          </div>
+
+          <!-- Floating badges -->
+          <div class="hero__badge hero__badge--1">
+            <span class="badge__num">+2k</span>
+            <span class="badge__txt">vendidos</span>
+          </div>
+          <div class="hero__badge hero__badge--2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#E63946"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>4.9 / 5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero__scroll">
+        <span>scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ========== BRANDS / TRUST ========== -->
+    <section class="brands">
+      <div class="container">
+        <p class="brands__label">Parceiros oficiais</p>
+        <div class="brands__list">
+          <span>RUNNING</span>
+          <span>TRAINING</span>
+          <span>FOOTBALL</span>
+          <span>BASKETBALL</span>
+          <span>OUTDOOR</span>
+          <span>YOGA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CATEGORIAS ========== -->
+    <section class="categories section" id="categorias">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Explore</p>
+          <h2 class="section-title">Categorias</h2>
+        </div>
+
+        <div class="categories__grid">
+          <a href="#masculino" class="cat-card cat-card--large" id="masculino">
+            <div class="cat-card__bg cat-card__bg--masc"></div>
+            <div class="cat-card__content">
+              <span class="cat-card__tag">156 produtos</span>
+              <h3 class="cat-card__title">Masculino</h3>
+              <span class="cat-card__cta">Ver tudo →</span>
+            </div>
+          </a>
+
+          <a href="#feminino" class="cat-card" id="feminino">
+            <div class="cat-card__bg cat-card__bg--fem"></div>
+            <div class="cat-card__content">
+              <span class="cat-card__tag">134 produtos</span>
+              <h3 class="cat-card__title">Feminino</h3>
+              <span class="cat-card__cta">Ver tudo →</span>
+            </div>
+          </a>
+
+          <a href="#infantil" class="cat-card" id="infantil">
+            <div class="cat-card__bg cat-card__bg--inf"></div>
+            <div class="cat-card__content">
+              <span class="cat-card__tag">89 produtos</span>
+              <h3 class="cat-card__title">Infantil</h3>
+              <span class="cat-card__cta">Ver tudo →</span>
+            </div>
+          </a>
+
+          <a href="#acessorios" class="cat-card">
+            <div class="cat-card__bg cat-card__bg--acess"></div>
+            <div class="cat-card__content">
+              <span class="cat-card__tag">72 produtos</span>
+              <h3 class="cat-card__title">Acessórios</h3>
+              <span class="cat-card__cta">Ver tudo →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRODUTOS EM DESTAQUE ========== -->
+    <section class="products section" id="produtos">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="section-eyebrow">Mais vendidos</p>
+            <h2 class="section-title">Destaques</h2>
+          </div>
+          <div class="products__filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="tenis">Tênis</button>
+            <button class="filter-btn" data-filter="roupas">Roupas</button>
+            <button class="filter-btn" data-filter="acessorios">Acessórios</button>
+          </div>
+        </div>
+
+        <div class="products__grid" id="products-grid">
+
+          <!-- Card 1 -->
+          <article class="prod-card" data-category="tenis">
+            <div class="prod-card__img-wrap">
+              <div class="prod-card__img prod-card__img--1"></div>
+              <span class="prod-card__badge">Novo</span>
+              <button class="prod-card__fav" aria-label="Favoritar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="prod-card__overlay">
+                <button class="btn btn--primary btn--sm">Adicionar ao Carrinho</button>
+              </div>
+            </div>
+            <div class="prod-card__info">
+              <div class="prod-card__colors">
+                <span class="color-dot" style="background:#111"></span>
+                <span class="color-dot" style="background:#E63946"></span>
+                <span class="color-dot" style="background:#457B9D"></span>
+              </div>
+              <h3 class="prod-card__name">Velocity Pro X1</h3>
+              <p class="prod-card__category">Corrida · Masculino</p>
+              <div class="prod-card__price">
+                <span class="price-current">R$ 699,90</span>
+              </div>
+              <div class="prod-card__stars">
+                ★★★★★ <span>(128)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="prod-card" data-category="tenis">
+            <div class="prod-card__img-wrap">
+              <div class="prod-card__img prod-card__img--2"></div>
+              <span class="prod-card__badge prod-card__badge--sale">-30%</span>
+              <button class="prod-card__fav" aria-label="Favoritar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="prod-card__overlay">
+                <button class="btn btn--primary btn--sm">Adicionar ao Carrinho</button>
+              </div>
+            </div>
+            <div class="prod-card__info">
+              <div class="prod-card__colors">
+                <span class="color-dot" style="background:#F1FAEE"></span>
+                <span class="color-dot" style="background:#E63946"></span>
+              </div>
+              <h3 class="prod-card__name">FlexRun Fem Elite</h3>
+              <p class="prod-card__category">Corrida · Feminino</p>
+              <div class="prod-card__price">
+                <span class="price-current">R$ 489,90</span>
+                <span class="price-old">R$ 699,90</span>
+              </div>
+              <div class="prod-card__stars">
+                ★★★★☆ <span>(96)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="prod-card" data-category="roupas">
+            <div class="prod-card__img-wrap">
+              <div class="prod-card__img prod-card__img--3"></div>
+              <button class="prod-card__fav" aria-label="Favoritar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="prod-card__overlay">
+                <button class="btn btn--primary btn--sm">Adicionar ao Carrinho</button>
+              </div>
+            </div>
+            <div class="prod-card__info">
+              <div class="prod-card__colors">
+                <span class="color-dot" style="background:#1D3557"></span>
+                <span class="color-dot" style="background:#457B9D"></span>
+                <span class="color-dot" style="background:#A8DADC"></span>
+              </div>
+              <h3 class="prod-card__name">Camiseta DryFit Pro</h3>
+              <p class="prod-card__category">Training · Masculino</p>
+              <div class="prod-card__price">
+                <span class="price-current">R$ 149,90</span>
+              </div>
+              <div class="prod-card__stars">
+                ★★★★★ <span>(214)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="prod-card" data-category="tenis">
+            <div class="prod-card__img-wrap">
+              <div class="prod-card__img prod-card__img--4"></div>
+              <span class="prod-card__badge">Exclusivo</span>
+              <button class="prod-card__fav" aria-label="Favoritar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="prod-card__overlay">
+                <button class="btn btn--primary btn--sm">Adicionar ao Carrinho</button>
+              </div>
+            </div>
+            <div class="prod-card__info">
+              <div class="prod-card__colors">
+                <span class="color-dot" style="background:#E9C46A"></span>
+                <span class="color-dot" style="background:#111"></span>
+              </div>
+              <h3 class="prod-card__name">StrikeForce Kids</h3>
+              <p class="prod-card__category">Futebol · Infantil</p>
+              <div class="prod-card__price">
+                <span class="price-current">R$ 329,90</span>
+              </div>
+              <div class="prod-card__stars">
+                ★★★★★ <span>(67)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="prod-card" data-category="acessorios">
+            <div class="prod-card__img-wrap">
+              <div class="prod-card__img prod-card__img--5"></div>
+              <span class="prod-card__badge prod-card__badge--sale">-20%</span>
+              <button class="prod-card__fav" aria-label="Favoritar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="prod-card__overlay">
+                <button class="btn btn--primary btn--sm">Adicionar ao Carrinho</button>
+              </div>
+            </div>
+            <div class="prod-card__info">
+              <div class="prod-card__colors">
+                <span class="color-dot" style="background:#2D6A4F"></span>
+                <span class="color-dot" style="background:#95D5B2"></span>
+              </div>
+              <h3 class="prod-card__name">Mochila Trail 30L</h3>
+              <p class="prod-card__category">Outdoor · Unissex</p>
+              <div class="prod-card__price">
+                <span class="price-current">R$ 239,90</span>
+                <span class="price-old">R$ 299,90</span>
+              </div>
+              <div class="prod-card__stars">
+                ★★★★☆ <span>(43)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="prod-card" data-category="roupas">
+            <div class="prod-card__img-wrap">
+              <div class="prod-card__img prod-card__img--6"></div>
+              <button class="prod-card__fav" aria-label="Favoritar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="prod-card__overlay">
+                <button class="btn btn--primary btn--sm">Adicionar ao Carrinho</button>
+              </div>
+            </div>
+            <div class="prod-card__info">
+              <div class="prod-card__colors">
+                <span class="color-dot" style="background:#E63946"></span>
+                <span class="color-dot" style="background:#F1FAEE"></span>
+                <span class="color-dot" style="background:#A8DADC"></span>
+              </div>
+              <h3 class="prod-card__name">Legging PowerFlex</h3>
+              <p class="prod-card__category">Training · Feminino</p>
+              <div class="prod-card__price">
+                <span class="price-current">R$ 199,90</span>
+              </div>
+              <div class="prod-card__stars">
+                ★★★★★ <span>(187)</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="products__more">
+          <a href="#" class="btn btn--outline">Ver todos os produtos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROMOÇÕES BANNER ========== -->
+    <section class="promo-banner section" id="promocoes">
+      <div class="container">
+        <div class="promo-banner__inner">
+          <div class="promo-banner__content">
+            <span class="promo-banner__tag">Oferta por tempo limitado</span>
+            <h2 class="promo-banner__title">ATÉ<br/><strong>50% OFF</strong></h2>
+            <p class="promo-banner__sub">Na seleção de tênis de corrida da coleção anterior. Estoque limitado, corra!</p>
+            <a href="#" class="btn btn--white">Aproveitar agora</a>
+          </div>
+          <div class="promo-banner__visual">
+            <div class="promo-banner__circle"></div>
+            <div class="promo-banner__numbers">
+              <div class="countdown" id="countdown">
+                <div class="countdown__item"><span id="hours">08</span><label>horas</label></div>
+                <div class="countdown__sep">:</div>
+                <div class="countdown__item"><span id="minutes">34</span><label>min</label></div>
+                <div class="countdown__sep">:</div>
+                <div class="countdown__item"><span id="seconds">00</span><label>seg</label></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATS / TRUST ========== -->
+    <section class="stats section">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stats__item">
+            <span class="stats__num" data-target="500">0</span><span class="stats__unit">k+</span>
+            <p>Clientes satisfeitos</p>
+          </div>
+          <div class="stats__item">
+            <span class="stats__num" data-target="1200">0</span><span class="stats__unit">+</span>
+            <p>Produtos disponíveis</p>
+          </div>
+          <div class="stats__item">
+            <span class="stats__num" data-target="15">0</span><span class="stats__unit">+</span>
+            <p>Anos de mercado</p>
+          </div>
+          <div class="stats__item">
+            <span class="stats__num" data-target="99">0</span><span class="stats__unit">%</span>
+            <p>Índice de satisfação</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== NEWSLETTER ========== -->
+    <section class="newsletter section">
+      <div class="container">
+        <div class="newsletter__inner">
+          <div class="newsletter__text">
+            <h2>Fique por dentro<br/>das novidades</h2>
+            <p>Receba lançamentos, promoções exclusivas e dicas de performance direto no seu e-mail.</p>
+          </div>
+          <form class="newsletter__form" id="newsletter-form">
+            <div class="newsletter__input-wrap">
+              <input type="email" placeholder="Seu melhor e-mail" required />
+              <button type="submit" class="btn btn--primary">Quero receber</button>
+            </div>
+            <p class="newsletter__legal">Ao se inscrever, você concorda com nossa Política de Privacidade.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">ÁPEX<span>SPORT</span></a>
+          <p>Equipamentos esportivos para quem não aceita limites. Qualidade, performance e estilo em cada produto.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="TikTok" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Comprar</h4>
+            <ul>
+              <li><a href="#">Masculino</a></li>
+              <li><a href="#">Feminino</a></li>
+              <li><a href="#">Infantil</a></li>
+              <li><a href="#">Acessórios</a></li>
+              <li><a href="#">Promoções</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Esportes</h4>
+            <ul>
+              <li><a href="#">Corrida</a></li>
+              <li><a href="#">Futebol</a></li>
+              <li><a href="#">Basquete</a></li>
+              <li><a href="#">Training</a></li>
+              <li><a href="#">Outdoor</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Ajuda</h4>
+            <ul>
+              <li><a href="#">Meu pedido</a></li>
+              <li><a href="#">Trocas e devoluções</a></li>
+              <li><a href="#">Guia de tamanhos</a></li>
+              <li><a href="#">Fale conosco</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Empresa</h4>
+            <ul>
+              <li><a href="#">Sobre nós</a></li>
+              <li><a href="#">Trabalhe conosco</a></li>
+              <li><a href="#">Sustentabilidade</a></li>
+              <li><a href="#">Imprensa</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2025 Ápex Sport. Todos os direitos reservados.</p>
+        <div class="footer__legal">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+          <a href="#">Cookies</a>
+        </div>
+        <div class="footer__payment">
+          <span>Pix</span>
+          <span>Visa</span>
+          <span>Master</span>
+          <span>Boleto</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="back-top" aria-label="Voltar ao topo">↑</button>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toast-msg">Item adicionado ao carrinho!</span>
+  </div>
+
+  <script src="Java.js"></script>
+</body>
+</html>
